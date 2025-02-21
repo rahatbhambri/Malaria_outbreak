@@ -1,4 +1,44 @@
-# Malaria_outbreak
-The model “Malaria outbreak prediction Model using Machine Learning” can help as an early warning tool to identify potential outbreaks of Malaria. In this study two popular data mining classification algorithms Support Vector Machine (SVM) and Artificial Neural Network (ANN) are used for Malaria prediction using a large dataset of Maharashtra state.
+# Malaria Outbreak Prediction
 
-It is observed that performance of the model developed using SVM is more accurate than ANN. The SVM model can predict the outbreak 15 -20 days in advance. However accuracy of prediction can be increased using more training data. This model can be scaled-up at country level.
+## Overview
+This project predicts malaria outbreaks using a machine learning model based on Support Vector Machines (SVM). The model forecasts outbreaks 15–20 days in advance with high accuracy, leveraging historical data and environmental factors.
+
+## Features
+- Predicts malaria outbreaks up to 20 days in advance.
+- Utilizes climate and health data for forecasting.
+- Implements an SVM-based machine learning model.
+- Provides visualization of prediction results.
+
+## Tech Stack
+- **Programming Language:** Python
+- **Machine Learning Model:** Support Vector Machine (SVM)
+- **Libraries Used:** Pandas, NumPy, Scikit-learn, Matplotlib
+
+## Installation
+```sh
+git clone https://github.com/rahatbhambri/Malaria_outbreak.git
+cd Malaria_outbreak
+pip install -r requirements.txt
+```
+
+## Usage
+1. Prepare the dataset (ensure data is in the expected format).
+2. Run the model:
+   ```sh
+   python main.py
+   ```
+3. Review the predictions and visualization outputs.
+
+
+## Results
+- Model accuracy and performance metrics.
+- Key findings from prediction analysis.
+
+## Future Enhancements
+- Improve model accuracy with additional features.
+- Implement deep learning models for better predictions.
+- Develop a web or mobile application for real-time alerts.
+
+## Contributing
+Contributions are welcome! Feel free to submit issues and pull requests.
+
